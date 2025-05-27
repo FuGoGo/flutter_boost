@@ -15,13 +15,13 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
+import io.flutter.FlutterInjector;
 import io.flutter.embedding.android.FlutterEngineProvider;
 import io.flutter.embedding.engine.FlutterEngine;
 import io.flutter.embedding.engine.FlutterEngineCache;
 import io.flutter.embedding.engine.FlutterJNI;
 import io.flutter.embedding.engine.dart.DartExecutor;
 import io.flutter.embedding.engine.loader.FlutterLoader;
-import com.idlefish.flutterboost.containers.FlutterViewContainer;
 
 public class FlutterBoost {
     public static final String ENGINE_ID = "flutter_boost_default_engine";
